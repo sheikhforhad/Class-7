@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+} 
+.class1{
+    width: 100%;
+    height: 40px;
+    background-color: red;
+    display: flex;
+}
+.menu{
+    width: 50%;
+    display: flex;  
+    padding-top: 8px;
+    font-size: 16px;
+    font-family:Hind Siliguri;
+}
+.first {
+    color: red ;
+    margin-left: 116px;
+      
+}
+.second {
+    color: red;
+    margin-left: 86px;
+  
+}
+.class1 .menu a{
+    color:white ;
+    text-decoration: none;   
+    transition-duration: 0.5s;
+}
+.class2{
+    width: 100%; 
+    height: 100%;
+    /* background-color: blue;   */
+}
+.class2 .mini{
+    width: 90%;
+    height: 100px;
+    /* background-color: green; */
+    align-items: center;
+    display: flex;
+    margin-left: 110px;
+    justify-content: space-between;  
+}
+.class2 .mini ul{
+    padding-top: 2px; 
+ 
+    /* background-color: blue; */
+    list-style-type: none;   
+    display: flex;
+    margin: auto;
+} 
+
+.class2 .mini ul li a{
+    display: inline-block;
+    text-decoration: none; 
+    color: black;
+    font-size: 13px;
+    padding: 3px 14px;
+    transition-duration: 0.5s;  
+}
+.class2 .mini ul li a:hover{  
+    background-color: orange;
+    border: 2px solid green;
+    border-radius: 5px;
+    color: black;
+} 
+.class2 .mini ul li{
+    position: relative;
+    /* background-color: red; */
+}
+.class2 .mini ul li ul{
+    position: absolute;
+    display: initial;
+    left: 0%;
+    top:120%;    
+    font-size: 23px;   
+    opacity: 0;
+    visibility: hidden;
+    transition: 2s;
+    border-radius: 10%;
+    border: rebeccapurple;
+    border-style: double;
+    transform-origin: top;
+        
+}
+.class2 .mini ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    left: 50%;
+    bottom:100%;
+   
+    background-color: red;   
+    border-radius: 10%;
+    border: rebeccapurple;
+    border-style: double;
+}
+
+.class2 .mini ul li ul a{
+    color: black;
+    text-decoration: none;  
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;        
+}
+
+
+  
+   
+    
+
+
